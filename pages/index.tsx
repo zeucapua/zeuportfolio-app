@@ -18,7 +18,7 @@ const Home: NextPage = () => {
             
           </div>
           <div className="flex flex-col mx-10 my-0 lg:m-10 lg:mt-16 text-center items-center">
-            <p className="text-[#c7edde] text-2xl font-bold my-2 underline underline-offset-8 decoration-dashed decoration-yellow-400">hello world! let's talk</p>
+            <p className="text-[#c7edde] text-2xl font-bold my-2 underline underline-offset-8 decoration-dashed decoration-yellow-400">{"hello world! let's talk"}</p>
             <div className="flex flex-row w-full flex-wrap my-8 justify-evenly">
               <Link href={"https://github.com/zeucapua"}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-github fill-[#c7edde] hover:fill-white" viewBox="0 0 16 16">
