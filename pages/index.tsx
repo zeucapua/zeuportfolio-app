@@ -23,7 +23,7 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="flex flex-col m-0 lg:m-10">
-            <p className="text-[#c7edde] text-2xl my-3 font-bold">What I"m All About</p>
+            <p className="text-[#c7edde] text-2xl my-3 font-bold">{"What I'm All About"}</p>
             <ul className="list-disc my-3 mx-3">
               <li>Lorem ipsum</li>
               <li>Lorem ipsum</li>
