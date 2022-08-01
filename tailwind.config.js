@@ -5,7 +5,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        comiccat: ["Comic_CAT", "sans-serif"],
+        saotorpes: ["SaoTorpes", "cursive"]
+      }
+    },
   },
   plugins: [],
 }
