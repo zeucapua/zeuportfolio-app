@@ -4,8 +4,8 @@ import Image from "next/image";
 const Home: NextPage = () => {
   return (
     <>
-      <div className="flex flex-col gap-0 w-full min-w-screen h-full min-h-screen justify-center lg:justify-start lg:content-center bg-black sprinkles">
-        <p className="text-center text-[8rem] lg:text-[32rem] -mt-16 lg:mt-0 font-saotorpes text-white">ZEU</p>
+      <div className="flex flex-col w-full min-w-screen h-full min-h-screen justify-center bg-black sprinkles">
+        <p className="text-center text-[8rem] lg:text-[32rem] -mt-32 font-saotorpes text-white">ZEU</p>
         <div className="flex flex-row justify-center text-center text-xl -mt-8 lg:text-[5rem] lg:-mt-[8rem] font-comiccat text-white tracking-wide">
           <p className="text-[#44ADEE] transition-all hover:-rotate-12 duration-150 cursor-pointer">CODER</p>
           <p>*</p>
